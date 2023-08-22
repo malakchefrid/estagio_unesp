@@ -1,0 +1,7 @@
+name: env_estagiounesp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  
