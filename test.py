@@ -27,8 +27,10 @@ def main():
     #print(pagina_web)
     lista_url = construir_url()
     i=1
+    res=''
     for link in construir_url():
-        print(str(i) + " " + link)
+        res= res + "link"+ str(i) + "= " + link + ' '
         i+=1
+    print(res)
 if __name__== "__main__":
     main()
