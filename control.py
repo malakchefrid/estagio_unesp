@@ -19,3 +19,6 @@ def square():
 for value in square():
     print(value)
 
+#break gets out of the loop and continues to the following code
+# continue goes directly to the next iteration
+#yield returns a value but saves the state where it left the function for the next time it will start running from where it stopped
